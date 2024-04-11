@@ -30,3 +30,34 @@
 *.exe
 *.out
 *.app
+
+# -----
+
+# Visual Studio
+.vs
+*.vcxproj.user
+
+# Otras cosas
+*.ilk
+*.pdb
+
+# Por si acaso
+*.log
+*.txt
+
+# Dependencias NO
+!dependencies/**
+
+# Builds
+dependencies/**/builds
+
+# Temporales
+temporary
+
+# Ejecutables; y recursos NO
+!executables/**
+executables/*
+!executables/assets
+
+# Librerías
+libraries
