@@ -1,5 +1,11 @@
 #pragma once
 
+#ifdef DLLPROJECT_EXPORTS
+#   define EXPORT __declspec(dllexport)
+#else
+#   define EXPORT __declspec(dllimport)
+#endif
+
 #include <queue>
 #include <iostream>
 
@@ -44,4 +50,9 @@ public:
 		}
 	}
 };
+
+extern "C" EXPORT Telemetrador * createTelemetrador();
+
+extern "C" EXPORT int test(int a);
+
 

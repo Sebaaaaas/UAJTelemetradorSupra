@@ -15,15 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Telemetrador.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Telemetrador.cpp">
+    <ClCompile Include="evento.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Telemetrador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="evento.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

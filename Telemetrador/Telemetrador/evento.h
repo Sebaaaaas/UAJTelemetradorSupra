@@ -2,10 +2,11 @@
 
 enum tipoEvento {
 	comienzoPartida,
-	finPartida
+	finPartida,
+	posicionJugador
 };
 
-class evento
+class evento //debemos poder adaptar los eventos para recoger cosas distintas(posicion, p.ej., solo para el eventos posicionJugador, no para comienzoPartida)
 {
 	tipoEvento tipo;
 	long timestamp;
