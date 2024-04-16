@@ -1,3 +1,3 @@
 #include "Telemetrador.h"
 
-Telemetrador* Telemetrador::instance = nullptr;
+//Telemetrador* Telemetrador::instance = nullptr;
