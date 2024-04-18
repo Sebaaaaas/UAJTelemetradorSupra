@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Telemetrador
+namespace TelemetradorNamespace
 {
     public class Class1
     {

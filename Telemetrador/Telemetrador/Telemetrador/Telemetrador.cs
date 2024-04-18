@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Telemetrador
+namespace TelemetradorNamespace
 {
     enum Events { startGame, endGame};
     public class Telemetrador
@@ -22,12 +22,12 @@ namespace Telemetrador
             events.Append(Events.startGame);
 
         }
-        public Telemetrador Instance()
+        public static Telemetrador Instance()
         {
             return instance;
         }
 
-        public static bool Inicializacion(string nombreJuego_, long idSesion_)
+        public static bool Inicializacion(string nombreJuego_)
         {
             if (instance != null) return false;
 
