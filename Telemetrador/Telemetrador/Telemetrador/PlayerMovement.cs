@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 
 namespace TelemetradorNamespace
 {
-    public class PlayerMovement
+    public class PlayerMovement:Event
     {
-
-        public void PlayerPosition(float posX, float posY)
+        public PlayerMovement(float timestamp, float posX, float posY)
         {
-            //añadir dato de la posicion y el tipo de evento a la cola de eventos recogidos a serializar
+            setEventType(EventType.playerPosition);
+            data.Add("timestamp", timestamp.ToString());
+            data.Add("playerX", posX.ToString());
+            data.Add("playerY", posY.ToString());
         }
     }
 }

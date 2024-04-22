@@ -7,32 +7,48 @@ using System.Threading.Tasks;
 
 namespace TelemetradorNamespace
 {
-    enum Events { startGame, endGame, playerBreathes, playerMoves};
     public class Telemetrador
     {
-        private Queue<Events> events;
+        private Queue<Event> events;
         private static Telemetrador instance = null;
+        private int eventIDcounter;
         public Guid idSesion; //para guardar la sesion del usuario
 
         private Telemetrador()
         {
-            events = new Queue<Events>();
+            events = new Queue<Event>();
             idSesion = Guid.NewGuid();
-
-            events.Append(Events.startGame);
-
+            eventIDcounter = 0;
         }
         public static Telemetrador Instance()
         {
             return instance;
         }
 
-        public static bool Inicializacion(string nombreJuego_)
+        public static bool Init()
         {
             if (instance != null) return false;
 
             instance = new Telemetrador();
             return true;
+        }
+
+        public void startSession(float timestamp, string nombreJuego_)
+        {
+            StartGame ev = new StartGame(timestamp, nombreJuego_);
+            ev.setID(eventIDcounter++);
+            events.Append(ev);
+        }
+        public void endSession(float timestamp, bool win)
+        {
+            EndGame ev = new EndGame(timestamp, win);
+            ev.setID(eventIDcounter++);
+            events.Append(ev);
+        }
+        public void addEvent(Event ev)
+        {
+            ev.setID(eventIDcounter++);
+            events.Append(ev);
         }
     }
 }

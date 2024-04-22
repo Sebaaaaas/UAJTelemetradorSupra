@@ -9,12 +9,12 @@ namespace TelemetradorNamespace
 {
     internal class SerializadorJSON:Serialiador
     {
-        public string serializa(Events ev)
+        public string serializa(Event ev)
         {
             return "hola";
             //string jsonString = JsonSerializer.Serialize(ev.);
         }
-        public string serializaTodo(ref Queue<Events> events)
+        public string serializaTodo(ref Queue<Event> events)
         {
             string t="";
             while(events.Count > 0)

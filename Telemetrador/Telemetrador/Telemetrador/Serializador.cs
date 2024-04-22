@@ -9,8 +9,8 @@ namespace TelemetradorNamespace
     internal interface Serialiador
     {
         enum Formatos {JSON};
-        string serializa(Events ev);
-        string serializaTodo(ref Queue<Events> events);
+        string serializa(Event ev);
+        string serializaTodo(ref Queue<Event> events);
         string getExtension();
         Formatos getTipo();
     }
