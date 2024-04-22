@@ -10,7 +10,7 @@ namespace TelemetradorNamespace
     public class PlayerMovement
     {
 
-        public void PlayerPosition(Vector2 pos)
+        public void PlayerPosition(float posX, float posY)
         {
             //añadir dato de la posicion y el tipo de evento a la cola de eventos recogidos a serializar
         }
