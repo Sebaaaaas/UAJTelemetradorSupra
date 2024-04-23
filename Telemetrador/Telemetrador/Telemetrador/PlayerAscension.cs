@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TelemetradorNamespace
 {
-    public class PlayerAscension:Event
+    public class PlayerAscension : Event
     {
         public PlayerAscension(float timestamp, bool isAscending)
         {

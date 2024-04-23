@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace TelemetradorNamespace
 {
-    public class PLayerBreath:Event
+    public class PLayerBreath : Event
     {
-       public PLayerBreath(float timestamp)
-       {
+        public PLayerBreath(float timestamp)
+        {
             setEventType(EventType.playerBreathes);
             data.Add("timestamp", timestamp.ToString());
         }

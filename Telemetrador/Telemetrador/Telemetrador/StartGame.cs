@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TelemetradorNamespace
 {
-    public class StartGame:Event
+    public class StartGame : Event
     {
         public StartGame(float timestamp, string gameName)
         {

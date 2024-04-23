@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TelemetradorNamespace
 {
-    public class PlayerMovement:Event
+    public class PlayerMovement : Event
     {
         public PlayerMovement(float timestamp, float posX, float posY)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TelemetradorNamespace
 {
-    public class EndGame:Event
+    public class EndGame : Event
     {
         public EndGame(float timestamp, bool win)
         {
