@@ -5,15 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace TelemetradorNamespace
 {
     public class Telemetrador
     {
         
-private static Telemetrador instance = null;
+        private static Telemetrador instance = null;
         private int eventIDcounter;
         public Guid idSesion; //para guardar la sesion del usuario
-        private Persistidor _persistidor;
+        private Persistencia _persistencia;
+        private Serializador _serializador;
+
 
         private Telemetrador()
         {
@@ -25,12 +28,33 @@ private static Telemetrador instance = null;
             return instance;
         }
 
-        public static bool Init()
+        public static bool Init(Formatos formato,string nombre,Medio medio)
         {
             if (instance != null) return false;
 
             instance = new Telemetrador();
+            instance.initSerializador(formato);
+            instance.initPersistencia(medio,nombre);
+            
             return true;
+        }
+        private void initSerializador(Formatos formato)
+        {
+            switch (formato)
+            {
+                case Formatos.JSON:
+                    _serializador=new SerializadorJSON();
+                    break;
+            }
+        }
+        private void initPersistencia(Medio medio,string nombre)
+        {
+            switch (medio)
+            {
+                case Medio.Archivo:
+                    _persistencia=new ArchivoPersistencia(nombre,_serializador);
+                    break;
+            }
         }
 
         public void startSession(float timestamp, string nombreJuego_)

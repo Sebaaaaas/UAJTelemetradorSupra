@@ -36,9 +36,9 @@ namespace TelemetradorNamespace
         {
             return "]}";
         }
-        public Serializador.Formatos getTipo()
+        public Formatos getTipo()
         {
-            return Serializador.Formatos.JSON;
+            return Formatos.JSON;
         }
         public string getExtension()
         {

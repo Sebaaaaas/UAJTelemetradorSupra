@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace TelemetradorNamespace
 {
-    abstract class Persistidor
+
+    public enum Medio {Archivo};
+    abstract class Persistencia
     {
         protected Serializador serializador;
         protected Queue<Event> events;
-        protected Persistidor(Serializador s)
+
+        protected Persistencia(Serializador s)
         {
             serializador = s;
             events = new Queue<Event>();

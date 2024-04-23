@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TelemetradorNamespace;
 
-namespace Telemetrador
+
+namespace TelemetradorNamespace
 {
-    internal class ArchivoPersistidor:Persistidor
+    internal class ArchivoPersistencia:Persistencia
     {
         
         private string nombreArchivo;
         private StreamWriter archivo;
-        public ArchivoPersistidor(string nombre,Serializador s):base(s)
+        public ArchivoPersistencia(string nombre,Serializador s):base(s)
         {
             nombreArchivo = nombre + s.getExtension();
             archivo=new StreamWriter(nombreArchivo,true);

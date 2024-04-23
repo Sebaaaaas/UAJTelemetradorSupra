@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TelemetradorNamespace
 {
+    public enum Formatos {JSON};
     internal interface Serializador
     {
-        enum Formatos {JSON};
         string serializa(Event ev);
         string serializaTodo(ref Queue<Event> events);
         string getExtension();
