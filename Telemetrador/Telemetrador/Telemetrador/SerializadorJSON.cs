@@ -7,12 +7,12 @@ using System.Text.Json;
 
 namespace TelemetradorNamespace
 {
-    internal class SerializadorJSON:Serialiador
+    internal class SerializadorJSON:Serializador
     {
         public string serializa(Event ev)
         {
-            return "hola";
-            //string jsonString = JsonSerializer.Serialize(ev.);
+            string jsonString = JsonSerializer.Serialize(ev.getData());
+            return jsonString;
         }
         public string serializaTodo(ref Queue<Event> events)
         {
@@ -36,9 +36,9 @@ namespace TelemetradorNamespace
         {
             return "]}";
         }
-        public Serialiador.Formatos getTipo()
+        public Serializador.Formatos getTipo()
         {
-            return Serialiador.Formatos.JSON;
+            return Serializador.Formatos.JSON;
         }
         public string getExtension()
         {
