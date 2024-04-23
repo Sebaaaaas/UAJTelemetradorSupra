@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace TelemetradorNamespace
 {
-    internal interface Serialiador
+    internal interface Serializador
     {
         enum Formatos {JSON};
         string serializa(Event ev);
         string serializaTodo(ref Queue<Event> events);
         string getExtension();
         Formatos getTipo();
+        string inicioSerializacion();
+        string finSerializacion();
     }
 }
