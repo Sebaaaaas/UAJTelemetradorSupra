@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace TelemetradorNamespace
 {
@@ -11,7 +11,8 @@ namespace TelemetradorNamespace
     {
         public string serializa(Event ev)
         {
-            string jsonString = JsonSerializer.Serialize(ev.getData());
+            //string jsonString = JsonSerializer.Serialize(ev.getData());
+            string jsonString = JsonConvert.SerializeObject(ev.getData()) ;
             return jsonString;
         }
         public string serializaTodo(ref Queue<Event> events)

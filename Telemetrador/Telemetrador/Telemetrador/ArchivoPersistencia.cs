@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 
 namespace TelemetradorNamespace
@@ -11,22 +12,26 @@ namespace TelemetradorNamespace
     {
         
         private string nombreArchivo;
-        private StreamWriter archivo;
+       // private StreamWriter archivo;
         public ArchivoPersistencia(string nombre,Serializador s):base(s)
         {
             nombreArchivo = nombre + s.getExtension();
-            archivo=new StreamWriter(nombreArchivo,true);
-            archivo.WriteLine(s.inicioSerializacion());
+            File.WriteAllText(nombreArchivo, serializador.inicioSerializacion());
+            //archivo=new StreamWriter(nombreArchivo,true);
+            //archivo.WriteLine(s.inicioSerializacion());
         }
 
         public override void flush()
         {
-            archivo.Write(serializador.serializaTodo(ref events));
+            //archivo.Write(serializador.serializaTodo(ref events));
+            //string contenido = serializador.serializaTodo(ref events);
+            File.WriteAllText(nombreArchivo, serializador.serializaTodo(ref events));
         }
         public override void close()
         {
-            archivo.WriteLine(serializador.finSerializacion());
-            archivo.Flush();
+            //archivo.WriteLine(serializador.finSerializacion());
+            //archivo.Flush();
+            File.AppendAllText(nombreArchivo, serializador.finSerializacion());
         }
     }
 }
