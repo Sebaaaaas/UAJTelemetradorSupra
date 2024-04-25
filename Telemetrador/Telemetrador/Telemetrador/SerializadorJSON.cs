@@ -9,6 +9,7 @@ namespace TelemetradorNamespace
 {
     internal class SerializadorJSON:Serializador
     {
+        bool primerElemento = true;
         public string serializa(Event ev)
         {
             
@@ -17,17 +18,21 @@ namespace TelemetradorNamespace
         }
         public string serializaTodo(ref Queue<Event> events)
         {
-            string t="";
-            while(events.Count > 0)
+            string t = "";
+            while (events.Count > 0)
             {
-
-                t += serializa(events.Dequeue());
-                if(events.Count > 0 )
+                if (!primerElemento)
                 {
                     t += ",";
                 }
+                else
+                {
+                    primerElemento = false;
+                }
+                t += serializa(events.Dequeue());
             }
             return t;
+            
         }
 
         public string inicioSerializacion()
