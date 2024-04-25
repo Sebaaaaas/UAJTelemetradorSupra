@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace TelemetradorNamespace
 {
     public enum Formatos {JSON};
-    internal interface Serializador
+    interface Serializador
     {
         string serializa(Event ev);
         string serializaTodo(ref Queue<Event> events);
