@@ -11,7 +11,7 @@ namespace TelemetradorNamespace
     {
         public string serializa(Event ev)
         {
-            //string jsonString = JsonSerializer.Serialize(ev.getData());
+            
             string jsonString = JsonConvert.SerializeObject(ev.getData(),Formatting.Indented) ;
             return jsonString;
         }
@@ -20,6 +20,7 @@ namespace TelemetradorNamespace
             string t="";
             while(events.Count > 0)
             {
+
                 t += serializa(events.Dequeue());
                 if(events.Count > 0 )
                 {

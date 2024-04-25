@@ -24,13 +24,14 @@ namespace TelemetradorNamespace
         public override void flush()
         {
             archivo.Write(serializador.serializaTodo(ref events));
-            string contenido = serializador.serializaTodo(ref events);
+            //string contenido = serializador.serializaTodo(ref events);
             //File.WriteAllText(nombreArchivo, serializador.serializaTodo(ref events));
         }
         public override void close()
         {
+            //archivo.Flush();
+            flush();
             archivo.WriteLine(serializador.finSerializacion());
-            archivo.Flush();
             archivo.Close();
            // File.AppendAllText(nombreArchivo, serializador.finSerializacion());
         }

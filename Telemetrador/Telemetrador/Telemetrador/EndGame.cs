@@ -10,7 +10,8 @@ namespace TelemetradorNamespace
     {
         public EndGame(float timestamp, bool win)
         {
-            setEventType(EventType.startGame);
+            setEventType(EventType.endGame);
+            data.Add("name", "Fin");
             data.Add("timestamp", timestamp.ToString());
             data.Add("win", win.ToString());
         }

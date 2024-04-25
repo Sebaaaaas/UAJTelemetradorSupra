@@ -11,6 +11,7 @@ namespace TelemetradorNamespace
         public PLayerBreath(float timestamp)
         {
             setEventType(EventType.playerBreathes);
+            data.Add("name", "Respira");
             data.Add("timestamp", timestamp.ToString());
         }
 
