@@ -12,6 +12,7 @@ namespace TelemetradorNamespace
         public PlayerMovement(float timestamp, float posX, float posY)
         {
             setEventType(EventType.playerPosition);
+            data.Add("name", "Movimiento");
             data.Add("timestamp", timestamp.ToString());
             data.Add("playerX", posX.ToString());
             data.Add("playerY", posY.ToString());

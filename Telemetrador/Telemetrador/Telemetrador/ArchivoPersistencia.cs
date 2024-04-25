@@ -13,6 +13,7 @@ namespace TelemetradorNamespace
         
         private string nombreArchivo;
         private StreamWriter archivo;
+        bool cerrado = false;
         public ArchivoPersistencia(string nombre,Serializador s):base(s)
         {
             nombreArchivo = nombre + s.getExtension();
@@ -30,9 +31,13 @@ namespace TelemetradorNamespace
         public override void close()
         {
             //archivo.Flush();
-            flush();
-            archivo.WriteLine(serializador.finSerializacion());
-            archivo.Close();
+            if (!cerrado)
+            {
+                cerrado = true;
+                flush();
+                archivo.WriteLine(serializador.finSerializacion());
+                archivo.Close();
+            }
            // File.AppendAllText(nombreArchivo, serializador.finSerializacion());
         }
     }

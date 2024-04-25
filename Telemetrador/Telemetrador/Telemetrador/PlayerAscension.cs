@@ -11,6 +11,7 @@ namespace TelemetradorNamespace
         public PlayerAscension(float timestamp, bool isAscending)
         {
             setEventType(EventType.playerBreathes);
+            data.Add("name", "Ascenso");
             data.Add("timestamp", timestamp.ToString());
             data.Add("isAscending", isAscending.ToString());
         }
