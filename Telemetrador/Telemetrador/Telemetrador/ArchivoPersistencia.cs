@@ -12,26 +12,27 @@ namespace TelemetradorNamespace
     {
         
         private string nombreArchivo;
-       // private StreamWriter archivo;
+        private StreamWriter archivo;
         public ArchivoPersistencia(string nombre,Serializador s):base(s)
         {
             nombreArchivo = nombre + s.getExtension();
-            File.WriteAllText(nombreArchivo, serializador.inicioSerializacion());
-            //archivo=new StreamWriter(nombreArchivo,true);
-            //archivo.WriteLine(s.inicioSerializacion());
+            //File.WriteAllText(nombreArchivo, serializador.inicioSerializacion());
+            archivo = new StreamWriter(nombreArchivo, true);
+            archivo.WriteLine(s.inicioSerializacion());
         }
 
         public override void flush()
         {
-            //archivo.Write(serializador.serializaTodo(ref events));
-            //string contenido = serializador.serializaTodo(ref events);
-            File.WriteAllText(nombreArchivo, serializador.serializaTodo(ref events));
+            archivo.Write(serializador.serializaTodo(ref events));
+            string contenido = serializador.serializaTodo(ref events);
+            //File.WriteAllText(nombreArchivo, serializador.serializaTodo(ref events));
         }
         public override void close()
         {
-            //archivo.WriteLine(serializador.finSerializacion());
-            //archivo.Flush();
-            File.AppendAllText(nombreArchivo, serializador.finSerializacion());
+            archivo.WriteLine(serializador.finSerializacion());
+            archivo.Flush();
+            archivo.Close();
+           // File.AppendAllText(nombreArchivo, serializador.finSerializacion());
         }
     }
 }

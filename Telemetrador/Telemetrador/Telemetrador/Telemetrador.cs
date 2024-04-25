@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Threading;
 
 
 namespace TelemetradorNamespace
@@ -17,6 +18,7 @@ namespace TelemetradorNamespace
         public Guid idSesion; //para guardar la sesion del usuario
         private Persistencia _persistencia;
         private Serializador _serializador;
+        float t=2.0f;
 
 
         private Telemetrador()
@@ -62,18 +64,31 @@ namespace TelemetradorNamespace
         {
             StartGame ev = new StartGame(timestamp, nombreJuego_);
             ev.setID(eventIDcounter++);
-            //events.Append(ev);
+            _persistencia.addEvent(ev);
+            _persistencia.flush();
+            
         }
         public void endSession(float timestamp, bool win)
         {
             EndGame ev = new EndGame(timestamp, win);
             ev.setID(eventIDcounter++);
-            //events.Append(ev);
+            _persistencia.addEvent(ev);
+            _persistencia.close();
+            
         }
-        //public void addEvent(Event ev)
-        //{
-        //    ev.setID(eventIDcounter++);
-        //    events.Append(ev);
-        //}
+        public void addEvent(Event ev)
+        {
+            ev.setID(eventIDcounter++);
+            _persistencia.addEvent(ev);
+        }
+       public void Update(float deltaTime)
+        {
+            t -= deltaTime;
+            if (t <= 0)
+            {
+                _persistencia.flush();
+                t = 2.0f;
+            }
+        }
     }
 }

@@ -17,7 +17,7 @@ namespace TelemetradorNamespace
         int eventID;
         public Event()
         {
-
+            data=new Dictionary<string, string>();
         }
         protected void setEventType(EventType type)
         {
