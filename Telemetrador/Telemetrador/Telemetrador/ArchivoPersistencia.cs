@@ -8,7 +8,7 @@ using System.IO;
 
 namespace TelemetradorNamespace
 {
-    internal class ArchivoPersistencia:Persistencia
+    class ArchivoPersistencia:Persistencia
     {
         
         private string nombreArchivo;
