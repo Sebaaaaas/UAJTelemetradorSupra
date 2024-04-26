@@ -11,7 +11,7 @@ namespace TelemetradorNamespace
         public StartGame(float timestamp, string gameName)
         {
             setEventType(EventType.startGame);
-            data.Add("name", "Empiece");
+            data.Add("name", "Empiece_Partida");
             data.Add("timestamp", timestamp.ToString());
             data.Add("gameName", gameName);
         }
