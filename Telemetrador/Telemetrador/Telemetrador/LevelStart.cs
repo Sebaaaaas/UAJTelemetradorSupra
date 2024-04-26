@@ -5,7 +5,7 @@ namespace TelemetradorNamespace
     {
         public LevelStart(float timestamp)
         {
-            setEventType(EventType.startGame);
+            setEventType(EventType.startLevel);
             data.Add("name", "Empiece_Nivel");
             data.Add("timestamp", timestamp.ToString());
         }
