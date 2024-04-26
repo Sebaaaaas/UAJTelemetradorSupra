@@ -10,7 +10,7 @@ if __name__ == '__main__':
     """Main function
     """
     # Specify the path to the JSON file
-    file_path = './data/prueba.json'
+    file_path = './data/prueba3.json'
 
     # Open the JSON file and load its contents
     with open(file_path, 'r') as file:
@@ -51,7 +51,7 @@ if __name__ == '__main__':
             gameWon = currentEvent['win']
         if currentEvent['name'] == "Movimiento":
             # Guardar la posición del jugador en la lista
-            aux = {"x": float(currentEvent['playerX'].replace(',', '.'))+ 100, "y": float(currentEvent['playerY'].replace(',', '.'))+ 100}
+            aux = {"x": float(currentEvent['playerX'].replace(',', '.'))+ 100, "y": float(currentEvent['playerY'].replace(',', '.'))+ 40}
             player_positions.append(aux)
 
     print("duracion partida: ")
@@ -71,9 +71,9 @@ if __name__ == '__main__':
     img = plt.imread("bg.png")
     ax.imshow(img, extent=[0, 1107, 0, 472])  
 
-    # Invertir los datos del eje y antes de graficar el heatmap
-    dfPlayerPositions['x'] = 1107 - dfPlayerPositions['x']
-    dfPlayerPositions['y'] = 472 - dfPlayerPositions['y']
+    # Escalar los datos y antes de graficar el heatmap
+    dfPlayerPositions['x'] = 10 * dfPlayerPositions['x']
+    dfPlayerPositions['y'] = 10 * dfPlayerPositions['y']
 
     # Dibujar un mapa de calor transparente utilizando pandas.plot.hexbin
     heatmap  = dfPlayerPositions.plot.hexbin(
@@ -87,6 +87,7 @@ if __name__ == '__main__':
         alpha=0.5,
         cmap='Reds'
     )
+
 
     ax.set_xticks(range(0, 1107, 100))
     ax.set_yticks(range(0, 472, 100))
