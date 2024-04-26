@@ -30,21 +30,35 @@ if __name__ == '__main__':
     player_positions = []
     # Compute the session length for each session (in ms)
     duracionJuego = []
+    duracionSesion = []
+
     for currentEvent in sorted_events:
-        if currentEvent['name'] == "Empiece":
+        if currentEvent['name'] == "Empiece_Partida":
             tsSessionStart = currentEvent['timestamp']
-        if currentEvent['name'] == "Fin":
+        if currentEvent['name'] == "Salida_Jugador":
             tsSessionEnd = currentEvent['timestamp']
             tsSessionStart = float(tsSessionStart.replace(',', '.'))
             tsSessionEnd = float(tsSessionEnd.replace(',', '.'))
-            duracionJuego.append(tsSessionEnd-tsSessionStart)
+            duracionSesion.append(tsSessionEnd-tsSessionStart)
+            
+        if currentEvent['name'] == "Empiece_Nivel":
+            tsGameStart = currentEvent['timestamp']
+        if currentEvent['name'] == "Fin":
+            tsGameEnd = currentEvent['timestamp']
+            tsGameStart = float(tsGameStart.replace(',', '.'))
+            tsGameEnd = float(tsGameEnd.replace(',', '.'))
+            duracionJuego.append(tsGameEnd-tsGameStart)
             gameWon = currentEvent['win']
         if currentEvent['name'] == "Movimiento":
             # Guardar la posición del jugador en la lista
             aux = {"x": float(currentEvent['playerX'].replace(',', '.'))+ 100, "y": float(currentEvent['playerY'].replace(',', '.'))+ 100}
             player_positions.append(aux)
 
-
+    print("duracion partida: ")
+    print(duracionJuego)
+    print("duracion sesion: ")
+    print(duracionSesion)
+    
     # Convertir la lista de posiciones del jugador a un DataFrame de pandas
     dfPlayerPositions = pd.DataFrame(player_positions)
 
