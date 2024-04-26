@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Threading;
-
+using TelemetradorNamespace;
 
 namespace TelemetradorNamespace
 {
@@ -73,8 +73,16 @@ namespace TelemetradorNamespace
             EndGame ev = new EndGame(timestamp, win);
             ev.setID(eventIDcounter++);
             _persistencia.addEvent(ev);
-            _persistencia.close();
+            //_persistencia.close();
             
+        }
+        public void endQuit(float timestamp)
+        {
+            EndQuit ev = new EndQuit(timestamp);
+            ev.setID(eventIDcounter++);
+            _persistencia.addEvent(ev);
+            _persistencia.close();
+
         }
         public void addEvent(Event ev)
         {
