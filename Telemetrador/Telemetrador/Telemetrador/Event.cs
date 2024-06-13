@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace TelemetradorNamespace
 {
 
-    public enum EventType { startGame, endGame, playerBreathes, playerPosition, playerAscending,endQuit,startLevel };
+    public enum EventType { startGame, endGame, playerBreathes, playerPosition, playerAscending,playerDeath,oxygenRemaining,endQuit,startLevel };
 
 
     public class Event
