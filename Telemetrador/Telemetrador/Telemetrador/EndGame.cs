@@ -8,12 +8,16 @@ namespace TelemetradorNamespace
 {
     public class EndGame : Event
     {
-        public EndGame(float timestamp, bool win)
+        public EndGame(float timestamp, bool win, float min, float sec, float mill)
         {
             setEventType(EventType.endGame);
             data.Add("name", "Fin");
             data.Add("timestamp", timestamp.ToString());
             data.Add("win", win.ToString());
+            if (win)
+            {
+                data.Add("Tiempo en encontrarlo", min.ToString() + " " + sec.ToString() + " " + mill.ToString());
+            }
         }
     }
 }

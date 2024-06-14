@@ -68,9 +68,9 @@ namespace TelemetradorNamespace
             _persistencia.flush();
             
         }
-        public void endSession(float timestamp, bool win)
+        public void endSession(float timestamp, bool win,float min, float sec, float mill)
         {
-            EndGame ev = new EndGame(timestamp, win);
+            EndGame ev = new EndGame(timestamp, win, min,  sec, mill);
             ev.setID(eventIDcounter++);
             _persistencia.addEvent(ev);
             //_persistencia.close();
