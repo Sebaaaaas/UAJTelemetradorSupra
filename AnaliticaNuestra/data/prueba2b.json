@@ -1,0 +1,1177 @@
+{"datos":[
+{
+  "name": "Empiece_Partida",
+  "timestamp": "0",
+  "gameName": "myGame"
+},{
+  "name": "Empiece_Nivel",
+  "timestamp": "1,69569"
+},{
+  "name": "Movimiento",
+  "timestamp": "3,029447",
+  "playerX": "7,426634",
+  "playerY": "-0,8534679"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "3,029447",
+  "Cantidad de Oxigeno": "0 57 999,5842"
+},{
+  "name": "Movimiento",
+  "timestamp": "5,030323",
+  "playerX": "4,767592",
+  "playerY": "-2,244153"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "5,030323",
+  "Cantidad de Oxigeno": "0 55 998,661"
+},{
+  "name": "Movimiento",
+  "timestamp": "7,030797",
+  "playerX": "1,118063",
+  "playerY": "-2,897872"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "7,030797",
+  "Cantidad de Oxigeno": "0 53 998,2452"
+},{
+  "name": "Movimiento",
+  "timestamp": "9,031322",
+  "playerX": "-2,77357",
+  "playerY": "-3,68887"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "9,031322",
+  "Cantidad de Oxigeno": "0 51 997,6654"
+},{
+  "name": "Movimiento",
+  "timestamp": "11,03233",
+  "playerX": "-6,590629",
+  "playerY": "-4,238091"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "11,03233",
+  "Cantidad de Oxigeno": "0 49 996,6011"
+},{
+  "name": "Movimiento",
+  "timestamp": "13,03411",
+  "playerX": "-10,01797",
+  "playerY": "-4,71529"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "13,03411",
+  "Cantidad de Oxigeno": "0 47 994,8387"
+},{
+  "name": "Movimiento",
+  "timestamp": "15,03431",
+  "playerX": "-10,65526",
+  "playerY": "-5,993851"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "15,03431",
+  "Cantidad de Oxigeno": "0 45 994,6518"
+},{
+  "name": "Movimiento",
+  "timestamp": "17,03522",
+  "playerX": "-9,158751",
+  "playerY": "-6,425851"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "17,03522",
+  "Cantidad de Oxigeno": "0 43 993,7515"
+},{
+  "name": "Movimiento",
+  "timestamp": "19,03528",
+  "playerX": "-7,250198",
+  "playerY": "-6,483141"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "19,03528",
+  "Cantidad de Oxigeno": "0 41 993,7592"
+},{
+  "name": "Movimiento",
+  "timestamp": "21,03552",
+  "playerX": "-8,090974",
+  "playerY": "-6,163652"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "21,03552",
+  "Cantidad de Oxigeno": "0 39 993,5684"
+},{
+  "name": "Movimiento",
+  "timestamp": "23,03564",
+  "playerX": "-11,20584",
+  "playerY": "-5,909159"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "23,03564",
+  "Cantidad de Oxigeno": "0 37 993,454"
+},{
+  "name": "Movimiento",
+  "timestamp": "25,0364",
+  "playerX": "-13,23422",
+  "playerY": "-7,234776"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "25,0364",
+  "Cantidad de Oxigeno": "0 35 992,6834"
+},{
+  "name": "Movimiento",
+  "timestamp": "27,03678",
+  "playerX": "-15,33564",
+  "playerY": "-8,517865"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "27,03678",
+  "Cantidad de Oxigeno": "0 33 992,2981"
+},{
+  "name": "Movimiento",
+  "timestamp": "29,03858",
+  "playerX": "-16,61742",
+  "playerY": "-8,230702"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "29,03858",
+  "Cantidad de Oxigeno": "0 26 990,5186"
+},{
+  "name": "Movimiento",
+  "timestamp": "31,03984",
+  "playerX": "-18,99668",
+  "playerY": "-8,049273"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "31,03984",
+  "Cantidad de Oxigeno": "0 24 989,2273"
+},{
+  "name": "Movimiento",
+  "timestamp": "33,04052",
+  "playerX": "-21,02499",
+  "playerY": "-9,304555"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "33,04052",
+  "Cantidad de Oxigeno": "0 17 988,5693"
+},{
+  "name": "Movimiento",
+  "timestamp": "35,04158",
+  "playerX": "-24,35945",
+  "playerY": "-9,483897"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "35,04158",
+  "Cantidad de Oxigeno": "0 15 987,4964"
+},{
+  "name": "Movimiento",
+  "timestamp": "37,04278",
+  "playerX": "-27,33703",
+  "playerY": "-8,810637"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "37,04278",
+  "Cantidad de Oxigeno": "0 13 986,3024"
+},{
+  "name": "Movimiento",
+  "timestamp": "39,04315",
+  "playerX": "-30,42289",
+  "playerY": "-8,8539"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "39,04315",
+  "Cantidad de Oxigeno": "0 11 985,9419"
+},{
+  "name": "Movimiento",
+  "timestamp": "41,04467",
+  "playerX": "-34,00079",
+  "playerY": "-10,09912"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "41,04467",
+  "Cantidad de Oxigeno": "0 4 984,4136"
+},{
+  "name": "Movimiento",
+  "timestamp": "43,04582",
+  "playerX": "-36,08263",
+  "playerY": "-11,75279"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "43,04582",
+  "Cantidad de Oxigeno": "0 2 983,2745"
+},{
+  "name": "Movimiento",
+  "timestamp": "45,04711",
+  "playerX": "-37,16214",
+  "playerY": "-15,05669"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "45,04711",
+  "Cantidad de Oxigeno": "0 0 981,9827"
+},{
+  "name": "Ascenso_",
+  "timestamp": "46,03085",
+  "ascensionStartTimestamp": "47,02909",
+  "drowned": "True"
+},{
+  "name": "Muerte del jugador",
+  "timestamp": "46,03085",
+  "NumMuertes": "1"
+},{
+  "name": "Fin",
+  "timestamp": "46,03085",
+  "win": "False"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "48,25602",
+  "Cantidad de Oxigeno": "0 58 982,4562"
+},{
+  "name": "Movimiento",
+  "timestamp": "48,25602",
+  "playerX": "5,146075",
+  "playerY": "-0,2412884"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "50,25743",
+  "Cantidad de Oxigeno": "0 56 981,0638"
+},{
+  "name": "Movimiento",
+  "timestamp": "50,25743",
+  "playerX": "2,156065",
+  "playerY": "-1,080847"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "52,25783",
+  "Cantidad de Oxigeno": "0 54 980,7472"
+},{
+  "name": "Movimiento",
+  "timestamp": "52,25783",
+  "playerX": "-1,560981",
+  "playerY": "-2,388859"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "54,25828",
+  "Cantidad de Oxigeno": "0 52 980,3429"
+},{
+  "name": "Movimiento",
+  "timestamp": "54,25828",
+  "playerX": "-5,233264",
+  "playerY": "-3,458543"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "56,25864",
+  "Cantidad de Oxigeno": "0 50 980,0034"
+},{
+  "name": "Movimiento",
+  "timestamp": "56,25864",
+  "playerX": "-8,30741",
+  "playerY": "-5,054256"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "58,25997",
+  "Cantidad de Oxigeno": "0 48 978,672"
+},{
+  "name": "Movimiento",
+  "timestamp": "58,25997",
+  "playerX": "-10,72994",
+  "playerY": "-5,488316"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "60,26097",
+  "Cantidad de Oxigeno": "0 46 977,6954"
+},{
+  "name": "Movimiento",
+  "timestamp": "60,26097",
+  "playerX": "-14,11022",
+  "playerY": "-6,192994"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "62,26235",
+  "Cantidad de Oxigeno": "0 44 976,3184"
+},{
+  "name": "Movimiento",
+  "timestamp": "62,26235",
+  "playerX": "-17,41053",
+  "playerY": "-6,69517"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "64,26382",
+  "Cantidad de Oxigeno": "0 37 974,8497"
+},{
+  "name": "Movimiento",
+  "timestamp": "64,26382",
+  "playerX": "-19,52789",
+  "playerY": "-9,483874"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "66,2645",
+  "Cantidad de Oxigeno": "0 35 974,1898"
+},{
+  "name": "Movimiento",
+  "timestamp": "66,2645",
+  "playerX": "-20,54174",
+  "playerY": "-9,481254"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "68,2646",
+  "Cantidad de Oxigeno": "0 33 974,144"
+},{
+  "name": "Movimiento",
+  "timestamp": "68,2646",
+  "playerX": "-22,47483",
+  "playerY": "-9,44627"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "70,2662",
+  "Cantidad de Oxigeno": "0 31 972,5266"
+},{
+  "name": "Movimiento",
+  "timestamp": "70,2662",
+  "playerX": "-25,2468",
+  "playerY": "-8,375116"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "72,26733",
+  "Cantidad de Oxigeno": "0 29 971,4146"
+},{
+  "name": "Movimiento",
+  "timestamp": "72,26733",
+  "playerX": "-28,88465",
+  "playerY": "-8,607784"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "74,26742",
+  "Cantidad de Oxigeno": "0 27 971,323"
+},{
+  "name": "Movimiento",
+  "timestamp": "74,26742",
+  "playerX": "-32,57737",
+  "playerY": "-8,864341"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "76,26835",
+  "Cantidad de Oxigeno": "0 25 970,3903"
+},{
+  "name": "Movimiento",
+  "timestamp": "76,26835",
+  "playerX": "-34,15835",
+  "playerY": "-9,948692"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "78,2702",
+  "Cantidad de Oxigeno": "0 23 968,5269"
+},{
+  "name": "Movimiento",
+  "timestamp": "78,2702",
+  "playerX": "-34,8147",
+  "playerY": "-13,36891"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "80,27132",
+  "Cantidad de Oxigeno": "0 21 967,4149"
+},{
+  "name": "Movimiento",
+  "timestamp": "80,27132",
+  "playerX": "-37,8387",
+  "playerY": "-14,79555"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "82,27292",
+  "Cantidad de Oxigeno": "0 19 965,8298"
+},{
+  "name": "Movimiento",
+  "timestamp": "82,27292",
+  "playerX": "-41,227",
+  "playerY": "-15,704"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "84,27356",
+  "Cantidad de Oxigeno": "0 17 965,1832"
+},{
+  "name": "Movimiento",
+  "timestamp": "84,27356",
+  "playerX": "-44,37855",
+  "playerY": "-18,39102"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "86,27527",
+  "Cantidad de Oxigeno": "0 15 963,4771"
+},{
+  "name": "Movimiento",
+  "timestamp": "86,27527",
+  "playerX": "-46,20726",
+  "playerY": "-20,07021"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "88,27644",
+  "Cantidad de Oxigeno": "0 8 962,2917"
+},{
+  "name": "Movimiento",
+  "timestamp": "88,27644",
+  "playerX": "-47,25703",
+  "playerY": "-22,85614"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "90,27685",
+  "Cantidad de Oxigeno": "0 6 961,8802"
+},{
+  "name": "Movimiento",
+  "timestamp": "90,27685",
+  "playerX": "-48,93695",
+  "playerY": "-23,3602"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "92,27852",
+  "Cantidad de Oxigeno": "0 4 960,2141"
+},{
+  "name": "Movimiento",
+  "timestamp": "92,27852",
+  "playerX": "-48,18852",
+  "playerY": "-23,38036"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "94,27969",
+  "Cantidad de Oxigeno": "0 2 959,037"
+},{
+  "name": "Movimiento",
+  "timestamp": "94,27969",
+  "playerX": "-48,44152",
+  "playerY": "-23,48388"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "96,28089",
+  "Cantidad de Oxigeno": "0 0 957,8382"
+},{
+  "name": "Movimiento",
+  "timestamp": "96,28089",
+  "playerX": "-48,92803",
+  "playerY": "-25,80234"
+},{
+  "name": "Ascenso_",
+  "timestamp": "97,23953",
+  "ascensionStartTimestamp": "98,23873",
+  "drowned": "True"
+},{
+  "name": "Muerte del jugador",
+  "timestamp": "97,23953",
+  "NumMuertes": "2"
+},{
+  "name": "Fin",
+  "timestamp": "97,23953",
+  "win": "False"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "99,41021",
+  "Cantidad de Oxigeno": "0 58 958,355"
+},{
+  "name": "Movimiento",
+  "timestamp": "99,41201",
+  "playerX": "5,586338",
+  "playerY": "-0,222165"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "101,4116",
+  "Cantidad de Oxigeno": "0 56 956,9359"
+},{
+  "name": "Movimiento",
+  "timestamp": "101,4134",
+  "playerX": "3,389107",
+  "playerY": "-1,052185"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "103,4132",
+  "Cantidad de Oxigeno": "0 54 955,3337"
+},{
+  "name": "Movimiento",
+  "timestamp": "103,415",
+  "playerX": "-0,1733363",
+  "playerY": "-1,55675"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "105,4151",
+  "Cantidad de Oxigeno": "0 52 953,4797"
+},{
+  "name": "Movimiento",
+  "timestamp": "105,4151",
+  "playerX": "-3,390552",
+  "playerY": "-1,132768"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "107,4174",
+  "Cantidad de Oxigeno": "0 50 951,1299"
+},{
+  "name": "Movimiento",
+  "timestamp": "107,4174",
+  "playerX": "-6,375726",
+  "playerY": "-3,958783"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "109,4176",
+  "Cantidad de Oxigeno": "0 48 950,9163"
+},{
+  "name": "Movimiento",
+  "timestamp": "109,4176",
+  "playerX": "-9,088376",
+  "playerY": "-6,357532"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "111,4194",
+  "Cantidad de Oxigeno": "0 46 949,2302"
+},{
+  "name": "Movimiento",
+  "timestamp": "111,4194",
+  "playerX": "-11,93082",
+  "playerY": "-5,884589"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "113,4202",
+  "Cantidad de Oxigeno": "0 44 948,4901"
+},{
+  "name": "Movimiento",
+  "timestamp": "113,4202",
+  "playerX": "-15,50262",
+  "playerY": "-7,040039"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "115,421",
+  "Cantidad de Oxigeno": "0 42 947,6586"
+},{
+  "name": "Movimiento",
+  "timestamp": "115,421",
+  "playerX": "-18,20419",
+  "playerY": "-9,114481"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "117,4222",
+  "Cantidad de Oxigeno": "0 40 946,4035"
+},{
+  "name": "Movimiento",
+  "timestamp": "117,4222",
+  "playerX": "-17,70311",
+  "playerY": "-9,480773"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "119,4232",
+  "Cantidad de Oxigeno": "0 38 945,4651"
+},{
+  "name": "Movimiento",
+  "timestamp": "119,4232",
+  "playerX": "-17,76373",
+  "playerY": "-9,217538"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "121,4249",
+  "Cantidad de Oxigeno": "0 36 943,6874"
+},{
+  "name": "Movimiento",
+  "timestamp": "121,4249",
+  "playerX": "-20,85805",
+  "playerY": "-9,176628"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "123,4251",
+  "Cantidad de Oxigeno": "0 34 943,4929"
+},{
+  "name": "Movimiento",
+  "timestamp": "123,4251",
+  "playerX": "-24,00426",
+  "playerY": "-8,350591"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "125,4253",
+  "Cantidad de Oxigeno": "0 32 943,4089"
+},{
+  "name": "Movimiento",
+  "timestamp": "125,4253",
+  "playerX": "-27,13523",
+  "playerY": "-9,395729"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "127,4253",
+  "Cantidad de Oxigeno": "0 30 943,3117"
+},{
+  "name": "Movimiento",
+  "timestamp": "127,4253",
+  "playerX": "-29,10417",
+  "playerY": "-7,681229"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "129,4258",
+  "Cantidad de Oxigeno": "0 28 942,8406"
+},{
+  "name": "Movimiento",
+  "timestamp": "129,4258",
+  "playerX": "-29,42038",
+  "playerY": "-4,860696"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "131,426",
+  "Cantidad de Oxigeno": "0 26 942,6765"
+},{
+  "name": "Movimiento",
+  "timestamp": "131,426",
+  "playerX": "-30,96147",
+  "playerY": "-2,489355"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "133,4263",
+  "Cantidad de Oxigeno": "0 24 942,3428"
+},{
+  "name": "Movimiento",
+  "timestamp": "133,4263",
+  "playerX": "-31,84657",
+  "playerY": "0,1617326"
+},{
+  "name": "Respira",
+  "timestamp": "134",
+  "reamainingTime": "0 24 369,8368"
+},{
+  "name": "Ascenso_",
+  "timestamp": "134",
+  "ascensionStartTimestamp": "39,79794",
+  "drowned": "False"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "135,4269",
+  "Cantidad de Oxigeno": "0 58 571,8765"
+},{
+  "name": "Movimiento",
+  "timestamp": "135,4269",
+  "playerX": "-32,25163",
+  "playerY": "-0,5196505"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "137,4269",
+  "Cantidad de Oxigeno": "0 56 571,8574"
+},{
+  "name": "Movimiento",
+  "timestamp": "137,4269",
+  "playerX": "-34,60453",
+  "playerY": "-3,691256"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "139,4282",
+  "Cantidad de Oxigeno": "0 54 570,5529"
+},{
+  "name": "Movimiento",
+  "timestamp": "139,4282",
+  "playerX": "-38,15385",
+  "playerY": "-5,513772"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "141,4296",
+  "Cantidad de Oxigeno": "0 52 569,1338"
+},{
+  "name": "Movimiento",
+  "timestamp": "141,4296",
+  "playerX": "-41,75091",
+  "playerY": "-6,695657"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "143,4313",
+  "Cantidad de Oxigeno": "0 45 567,3828"
+},{
+  "name": "Movimiento",
+  "timestamp": "143,4313",
+  "playerX": "-44,54502",
+  "playerY": "-8,285342"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "145,4318",
+  "Cantidad de Oxigeno": "0 43 566,8755"
+},{
+  "name": "Movimiento",
+  "timestamp": "145,4318",
+  "playerX": "-43,74999",
+  "playerY": "-10,34935"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "147,4324",
+  "Cantidad de Oxigeno": "0 41 566,2994"
+},{
+  "name": "Movimiento",
+  "timestamp": "147,4324",
+  "playerX": "-44,41878",
+  "playerY": "-12,93071"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "149,4338",
+  "Cantidad de Oxigeno": "0 39 564,9376"
+},{
+  "name": "Movimiento",
+  "timestamp": "149,4338",
+  "playerX": "-42,46639",
+  "playerY": "-14,9146"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "151,4347",
+  "Cantidad de Oxigeno": "0 37 563,9305"
+},{
+  "name": "Movimiento",
+  "timestamp": "151,4347",
+  "playerX": "-42,44159",
+  "playerY": "-17,25453"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "153,4363",
+  "Cantidad de Oxigeno": "0 35 562,3322"
+},{
+  "name": "Movimiento",
+  "timestamp": "153,4363",
+  "playerX": "-43,77723",
+  "playerY": "-20,47879"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "155,4364",
+  "Cantidad de Oxigeno": "0 33 562,1719"
+},{
+  "name": "Movimiento",
+  "timestamp": "155,4364",
+  "playerX": "-44,38339",
+  "playerY": "-21,26696"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "157,4373",
+  "Cantidad de Oxigeno": "0 31 561,264"
+},{
+  "name": "Movimiento",
+  "timestamp": "157,4373",
+  "playerX": "-47,44967",
+  "playerY": "-22,18498"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "159,4384",
+  "Cantidad de Oxigeno": "0 29 560,1711"
+},{
+  "name": "Movimiento",
+  "timestamp": "159,4384",
+  "playerX": "-49,52937",
+  "playerY": "-24,73125"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "161,4396",
+  "Cantidad de Oxigeno": "0 27 559,0057"
+},{
+  "name": "Movimiento",
+  "timestamp": "161,4396",
+  "playerX": "-49,61473",
+  "playerY": "-27,72061"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "163,4413",
+  "Cantidad de Oxigeno": "0 25 557,3082"
+},{
+  "name": "Movimiento",
+  "timestamp": "163,4413",
+  "playerX": "-48,0708",
+  "playerY": "-30,32951"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "165,4436",
+  "Cantidad de Oxigeno": "0 8 555,0575"
+},{
+  "name": "Movimiento",
+  "timestamp": "165,4436",
+  "playerX": "-47,10164",
+  "playerY": "-31,85098"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "167,4444",
+  "Cantidad de Oxigeno": "0 6 554,1987"
+},{
+  "name": "Movimiento",
+  "timestamp": "167,4444",
+  "playerX": "-49,92587",
+  "playerY": "-33,68055"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "169,4457",
+  "Cantidad de Oxigeno": "0 4 552,9227"
+},{
+  "name": "Movimiento",
+  "timestamp": "169,4457",
+  "playerX": "-53,63663",
+  "playerY": "-35,08515"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "171,4468",
+  "Cantidad de Oxigeno": "0 2 551,8055"
+},{
+  "name": "Movimiento",
+  "timestamp": "171,4468",
+  "playerX": "-57,40565",
+  "playerY": "-35,90794"
+},{
+  "name": "Ascenso_",
+  "timestamp": "172,8201",
+  "ascensionStartTimestamp": "-2,324474",
+  "drowned": "True"
+},{
+  "name": "Muerte del jugador",
+  "timestamp": "172,8201",
+  "NumMuertes": "3"
+},{
+  "name": "Fin",
+  "timestamp": "172,8201",
+  "win": "False"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "175,1635",
+  "Cantidad de Oxigeno": "0 59 373,1155"
+},{
+  "name": "Movimiento",
+  "timestamp": "175,1653",
+  "playerX": "5,397798",
+  "playerY": "-0,07038596"
+},{
+  "name": "Respira",
+  "timestamp": "176,32",
+  "reamainingTime": "0 58 229,7478"
+},{
+  "name": "Ascenso_",
+  "timestamp": "176,32",
+  "ascensionStartTimestamp": "60,01313",
+  "drowned": "False"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "177,1636",
+  "Cantidad de Oxigeno": "1 0 0"
+},{
+  "name": "Movimiento",
+  "timestamp": "177,167",
+  "playerX": "5,820442",
+  "playerY": "1,97"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "179,1649",
+  "Cantidad de Oxigeno": "1 0 0"
+},{
+  "name": "Movimiento",
+  "timestamp": "179,1675",
+  "playerX": "8",
+  "playerY": "1,97"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "181,166",
+  "Cantidad de Oxigeno": "1 0 0"
+},{
+  "name": "Movimiento",
+  "timestamp": "181,1679",
+  "playerX": "8",
+  "playerY": "1,97"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "183,1675",
+  "Cantidad de Oxigeno": "1 0 0"
+},{
+  "name": "Movimiento",
+  "timestamp": "183,1696",
+  "playerX": "8",
+  "playerY": "1,97"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "185,169",
+  "Cantidad de Oxigeno": "1 0 0"
+},{
+  "name": "Movimiento",
+  "timestamp": "185,1707",
+  "playerX": "8",
+  "playerY": "1,97"
+},{
+  "name": "Ascenso_",
+  "timestamp": "185,3246",
+  "ascensionStartTimestamp": "69,00456",
+  "drowned": "False"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "187,1699",
+  "Cantidad de Oxigeno": "1 58 152,2903"
+},{
+  "name": "Movimiento",
+  "timestamp": "187,1718",
+  "playerX": "6,907848",
+  "playerY": "-3,384977"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "189,1716",
+  "Cantidad de Oxigeno": "1 56 150,5508"
+},{
+  "name": "Movimiento",
+  "timestamp": "189,1735",
+  "playerX": "4,021103",
+  "playerY": "-4,274335"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "191,1724",
+  "Cantidad de Oxigeno": "1 54 149,6658"
+},{
+  "name": "Movimiento",
+  "timestamp": "191,1742",
+  "playerX": "0,6997159",
+  "playerY": "-3,979902"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "193,1739",
+  "Cantidad de Oxigeno": "1 52 148,1171"
+},{
+  "name": "Movimiento",
+  "timestamp": "193,1757",
+  "playerX": "-2,790102",
+  "playerY": "-3,779304"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "195,1745",
+  "Cantidad de Oxigeno": "1 50 147,5067"
+},{
+  "name": "Movimiento",
+  "timestamp": "195,1763",
+  "playerX": "-6,047993",
+  "playerY": "-4,932974"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "197,1749",
+  "Cantidad de Oxigeno": "1 48 146,9955"
+},{
+  "name": "Movimiento",
+  "timestamp": "197,1768",
+  "playerX": "-9,387161",
+  "playerY": "-5,167877"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "199,1752",
+  "Cantidad de Oxigeno": "1 46 146,8201"
+},{
+  "name": "Movimiento",
+  "timestamp": "199,177",
+  "playerX": "-13,18428",
+  "playerY": "-5,897973"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "201,1762",
+  "Cantidad de Oxigeno": "1 44 145,9579"
+},{
+  "name": "Movimiento",
+  "timestamp": "201,1781",
+  "playerX": "-16,5462",
+  "playerY": "-7,703012"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "203,1773",
+  "Cantidad de Oxigeno": "1 42 144,8975"
+},{
+  "name": "Movimiento",
+  "timestamp": "203,1792",
+  "playerX": "-19,75105",
+  "playerY": "-8,741611"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "205,1787",
+  "Cantidad de Oxigeno": "1 40 143,4784"
+},{
+  "name": "Movimiento",
+  "timestamp": "205,1805",
+  "playerX": "-23,33658",
+  "playerY": "-8,967514"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "207,1793",
+  "Cantidad de Oxigeno": "1 38 142,7841"
+},{
+  "name": "Movimiento",
+  "timestamp": "207,1812",
+  "playerX": "-26,86135",
+  "playerY": "-8,846047"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "209,1811",
+  "Cantidad de Oxigeno": "1 36 140,976"
+},{
+  "name": "Movimiento",
+  "timestamp": "209,183",
+  "playerX": "-30,23881",
+  "playerY": "-9,272639"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "211,1822",
+  "Cantidad de Oxigeno": "1 34 139,9155"
+},{
+  "name": "Movimiento",
+  "timestamp": "211,1839",
+  "playerX": "-31,16792",
+  "playerY": "-12,84029"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "213,1829",
+  "Cantidad de Oxigeno": "1 32 139,1678"
+},{
+  "name": "Movimiento",
+  "timestamp": "213,1847",
+  "playerX": "-32,67587",
+  "playerY": "-14,73945"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "215,1836",
+  "Cantidad de Oxigeno": "1 30 138,5803"
+},{
+  "name": "Movimiento",
+  "timestamp": "215,1854",
+  "playerX": "-30,65286",
+  "playerY": "-17,21912"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "217,1838",
+  "Cantidad de Oxigeno": "1 28 138,4735"
+},{
+  "name": "Movimiento",
+  "timestamp": "217,1856",
+  "playerX": "-30,98104",
+  "playerY": "-19,38739"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "219,1854",
+  "Cantidad de Oxigeno": "1 26 136,9476"
+},{
+  "name": "Movimiento",
+  "timestamp": "219,1873",
+  "playerX": "-33,54486",
+  "playerY": "-18,57837"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "221,1866",
+  "Cantidad de Oxigeno": "1 24 135,788"
+},{
+  "name": "Movimiento",
+  "timestamp": "221,1884",
+  "playerX": "-37,11371",
+  "playerY": "-18,75006"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "223,1876",
+  "Cantidad de Oxigeno": "1 22 134,6359"
+},{
+  "name": "Movimiento",
+  "timestamp": "223,1894",
+  "playerX": "-40,67487",
+  "playerY": "-18,79702"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "225,1888",
+  "Cantidad de Oxigeno": "1 20 133,4915"
+},{
+  "name": "Movimiento",
+  "timestamp": "225,1905",
+  "playerX": "-43,94501",
+  "playerY": "-20,70579"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "227,1895",
+  "Cantidad de Oxigeno": "1 18 132,8125"
+},{
+  "name": "Movimiento",
+  "timestamp": "227,1914",
+  "playerX": "-47,19163",
+  "playerY": "-21,73864"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "229,1911",
+  "Cantidad de Oxigeno": "1 16 131,2027"
+},{
+  "name": "Movimiento",
+  "timestamp": "229,1929",
+  "playerX": "-49,97321",
+  "playerY": "-23,23694"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "231,1913",
+  "Cantidad de Oxigeno": "1 14 131,0577"
+},{
+  "name": "Movimiento",
+  "timestamp": "231,1931",
+  "playerX": "-51,88195",
+  "playerY": "-26,32893"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "233,1928",
+  "Cantidad de Oxigeno": "1 12 129,425"
+},{
+  "name": "Movimiento",
+  "timestamp": "233,1947",
+  "playerX": "-51,80442",
+  "playerY": "-29,66066"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "235,1939",
+  "Cantidad de Oxigeno": "1 10 128,2578"
+},{
+  "name": "Movimiento",
+  "timestamp": "235,1959",
+  "playerX": "-50,30446",
+  "playerY": "-32,5582"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "237,1947",
+  "Cantidad de Oxigeno": "1 8 127,4414"
+},{
+  "name": "Movimiento",
+  "timestamp": "237,1966",
+  "playerX": "-52,39642",
+  "playerY": "-35,15615"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "239,1954",
+  "Cantidad de Oxigeno": "1 6 126,7014"
+},{
+  "name": "Movimiento",
+  "timestamp": "239,1973",
+  "playerX": "-54,73243",
+  "playerY": "-37,80353"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "241,1966",
+  "Cantidad de Oxigeno": "1 4 125,4425"
+},{
+  "name": "Movimiento",
+  "timestamp": "241,1985",
+  "playerX": "-55,81912",
+  "playerY": "-40,00279"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "243,198",
+  "Cantidad de Oxigeno": "1 2 124,073"
+},{
+  "name": "Movimiento",
+  "timestamp": "243,1999",
+  "playerX": "-58,4895",
+  "playerY": "-40,10644"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "245,1997",
+  "Cantidad de Oxigeno": "1 0 122,345"
+},{
+  "name": "Movimiento",
+  "timestamp": "245,202",
+  "playerX": "-59,96773",
+  "playerY": "-40,47886"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "247,2021",
+  "Cantidad de Oxigeno": "0 58 119,9417"
+},{
+  "name": "Movimiento",
+  "timestamp": "247,2021",
+  "playerX": "-60,81441",
+  "playerY": "-40,47886"
+},{
+  "name": "Oxigeno que le queda",
+  "timestamp": "249,2022",
+  "Cantidad de Oxigeno": "0 56 119,7739"
+},{
+  "name": "Movimiento",
+  "timestamp": "249,2022",
+  "playerX": "-63,79116",
+  "playerY": "-40,17552"
+},{
+  "name": "Fin",
+  "timestamp": "249,64",
+  "win": "True",
+  "Tiempo en encontrarlo": "4 8 608,0322"
+},{
+  "name": "Salida_Jugador",
+  "timestamp": "252,1589"
+}]}

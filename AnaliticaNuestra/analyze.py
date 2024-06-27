@@ -10,7 +10,7 @@ if __name__ == '__main__':
     """Main function
     """
     # Specify the path to the JSON file
-    file_path = './data/prueba3.json'
+    file_path = './data/prueba2b.json'
 
     # Open the JSON file and load its contents
     with open(file_path, 'r') as file:
@@ -31,6 +31,7 @@ if __name__ == '__main__':
     # Compute the session length for each session (in ms)
     duracionJuego = []
     duracionSesion = []
+    tsGameStart=0
 
     for currentEvent in sorted_events:
         if currentEvent['name'] == "Empiece_Partida":
@@ -43,9 +44,9 @@ if __name__ == '__main__':
             
         if currentEvent['name'] == "Empiece_Nivel":
             tsGameStart = currentEvent['timestamp']
+            tsGameStart = float(tsGameStart.replace(',', '.'))
         if currentEvent['name'] == "Fin":
             tsGameEnd = currentEvent['timestamp']
-            tsGameStart = float(tsGameStart.replace(',', '.'))
             tsGameEnd = float(tsGameEnd.replace(',', '.'))
             duracionJuego.append(tsGameEnd-tsGameStart)
             gameWon = currentEvent['win']
@@ -75,6 +76,13 @@ if __name__ == '__main__':
     dfPlayerPositions['x'] = 10 * dfPlayerPositions['x']
     dfPlayerPositions['y'] = 10 * dfPlayerPositions['y']
 
+
+    # En caso de que el jugador esté durante mucho tiempo en la misma posicion,
+    # no tenemos en cuenta las posiciones sobrantes para no alterar la escala
+    # en la que aparecen con respecto al resto. 
+    position_counts = dfPlayerPositions.groupby(['x', 'y']).cumcount()
+    dfPlayerPositions = dfPlayerPositions[position_counts < 4]
+
     # Dibujar un mapa de calor transparente utilizando pandas.plot.hexbin
     heatmap  = dfPlayerPositions.plot.hexbin(
         fig=fig,
@@ -91,7 +99,7 @@ if __name__ == '__main__':
 
     ax.set_xticks(range(0, 1107, 100))
     ax.set_yticks(range(0, 472, 100))
-    fig.savefig('player_positions_heatmap.png')
+    fig.savefig('./capturas/heatmap_2b.png')
 
     # # Aggregate game session lenghts and compute some stats using pandas.describe
     # s = pd.Series(duracionJuego)
